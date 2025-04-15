@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Landing Page - Viagem e Turismo</title>
     <!-- choose one -->
     <script src="https://unpkg.com/feather-icons"></script>
     <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
@@ -13,39 +13,57 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#secao1">Home</a></li>
-                <li><a href="#secao2">Serviços</a></li>
-                <li><a href="#secao3">Sobre nós</a></li>
+                <li><a href="#secao1">Início</a></li>
+                <li><a href="#secao2">Destinos</a></li>
+                <li><a href="#secao3">Sobre Nós</a></li>
                 <li><a href="#secao4">Contato</a></li>
             </ul>
         </nav>
     </header>
 
     <section id="secao1">
-        <h1>Bem-vindo à nossa landing page!</h1>
-        <p>Descrição introdutória sobre o objetivo da página.</p>
+        <h1>Explore o Mundo com a Gente!</h1>
+        <p>Descubra destinos incríveis, pacotes especiais e as melhores dicas de viagem para tornar sua jornada inesquecível.</p>
     </section>
 
     <section id="secao2">
-        <h2>Nossos Serviços</h2>
-        <p>Informações sobre os serviços que oferecemos.</p>
+        <h2>Serviços que Oferecemos</h2>
+        <p>Além dos destinos incríveis, oferecemos uma variedade de serviços para garantir que sua viagem seja confortável, segura e inesquecível. Conheça nossos principais serviços:</p>
+        <ul>
+            <li><strong>Hospedagem de Qualidade:</strong> Trabalhamos com uma seleção de hotéis e pousadas que atendem a diferentes orçamentos e preferências. Se você procura luxo, conforto ou praticidade, temos a opção ideal para você.</li>
+            <li><strong>Pacotes de Viagem Personalizados:</strong> Crie o seu pacote de viagem dos sonhos com base em suas preferências. Desde aventuras radicais até relaxamento total em resorts de luxo, temos pacotes que atendem a todos os gostos.</li>
+            <li><strong>Transporte:</strong> Oferecemos opções de transporte desde o aeroporto até o seu hotel, além de aluguel de carros, transfers privados e passeios guiados para tornar sua locomoção mais fácil e prática.</li>
+            <li><strong>Guias Locais:</strong> Para enriquecer sua experiência, contamos com guias locais especializados, que poderão mostrar os pontos turísticos e contar histórias e curiosidades sobre os destinos visitados.</li>
+            <li><strong>Experiências Exclusivas:</strong> Oferecemos experiências únicas, como jantares românticos em praias isoladas, passeios de barco nas Maldivas ou visitas privadas a museus e monumentos históricos.</li>
+            <li><strong>Seguro de Viagem:</strong> A segurança é nossa prioridade. Oferecemos planos de seguro de viagem que cobrem desde emergências médicas até imprevistos com a bagagem, para que você viaje com tranquilidade.</li>
+        </ul>
     </section>
 
     <section id="secao3">
         <h2>Sobre Nós</h2>
-        <p>Detalhes sobre a empresa ou o projeto.</p>
+        <p>Somos uma agência de turismo dedicada a proporcionar experiências de viagem únicas. Com anos de experiência no setor, trabalhamos para oferecer pacotes completos que atendem às suas necessidades e desejos, sempre com segurança e conforto.</p>
+        <p>Nosso objetivo é fazer com que cada viagem seja memorável, seja você um aventureiro em busca de novos horizontes ou alguém que só quer relaxar nas praias mais lindas do planeta.</p>
     </section>
 
     <section id="secao4">
         <h2>Contato</h2>
-        <p>Informações de contato e formulário.</p>
+        <p>Entre em contato conosco para mais informações sobre nossos pacotes ou para planejar sua próxima viagem.</p>
+        <form action="#" method="post">
+            <label for="nome">Seu nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">Seu e-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
     </section>
 
     <footer>
         <i data-feather="instagram"></i>
         <i data-feather="github"></i>
         <i data-feather="facebook"></i>
-        <p>&copy; 2025 Sua Empresa. Todos os direitos reservados.</p>
+        <p>&copy; 2025 Viagem e Turismo. Todos os direitos reservados.</p>
     </footer>
     <script>
         feather.replace();

@@ -3,10 +3,11 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-color: #f2f7fc;
 }
 
 header {
-    background: #333;
+    background: #004f99;
     color: #fff;
     padding: 10px 0;
 }
@@ -24,6 +25,12 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6f61;
 }
 
 section {
@@ -32,25 +39,39 @@ section {
 }
 
 #secao1 {
-    background: #f4f4f4;
+    background: #cce7ff;
+    color: #333;
 }
 
 #secao2 {
-    background: #e2e2e2;
+    background: #f0f8e4;
+    color: #333;
 }
 
 #secao3 {
-    background: #d0d0d0;
+    background: #ffe4b5;
+    color: #333;
 }
 
 #secao4 {
-    background: #b0b0b0;
+    background: #ffefd5;
+    color: #333;
 }
 
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #333;
+    background: #004f99;
     color: white;
     position: relative;
+}
+
+footer i {
+    color: white;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+footer i:hover {
+    color: #ff6f61;
 }
